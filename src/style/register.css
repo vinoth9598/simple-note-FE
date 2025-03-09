@@ -1,0 +1,46 @@
+.register{
+    align-items: center;
+    justify-content: center;
+    width:500px;
+    height: 500px;
+    margin:10px;
+    padding:10px;
+    border:1px solid white;
+    background-color: lightblue;
+    border-radius: 10px;
+
+}
+
+h3{
+    text-transform: uppercase;
+    padding:5px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.item-form{
+    display: inline-block;
+    width:500px;
+    height:300px;
+    align-items: center;
+}
+
+.form input{
+    margin-bottom: 20px;
+    padding:5px;
+    font-size: 20px;
+    overflow: hidden;
+    outline: none;
+    border:1px solid lightblue;
+    border-radius: 5px;
+    box-shadow: 0.2px 0.5px;
+}
+
+.btn{
+    border-radius: 10px;
+    border:1px solid blue;
+    box-shadow: 0.5px 0.5px;
+}
+
+.btn:hover{
+    background-color: orangered;
+}
