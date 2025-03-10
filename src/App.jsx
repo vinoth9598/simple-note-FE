@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import RegisterForm from './Component/RegisterForm';
-import LoginForm from './component/LoginForm';
-import LoggedInPage from './Component/LoggedInPage';
+import RegisterForm from './Component/RegisterForm.jsx';
+import LoginForm from './component/LoginForm.jsx';
+import LoggedInPage from './Component/LoggedInPage.jsx';
 import './style/app.css';
 
 function App() {
