@@ -13,7 +13,7 @@ function RegisterForm({registerData,setRegisterData,setIsRegistered,isRegistered
       password:registerData.password
     };
 
-    const response = await fetch('http://localhost:3001/users',{
+    const response = await fetch('https://simple-note-be.onrender.com/users',{
       method:'POST',
       headers:{
         'Content-Type':'application/json'

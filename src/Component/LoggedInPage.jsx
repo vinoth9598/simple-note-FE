@@ -21,7 +21,7 @@ function LoggedInPage({user,setUser,token,setToken,isRegistered,setIsRegistered}
     console.log("fetching notes....");
 
     try{
-      const response = await axios.get('http://localhost:3001/notes',config);
+      const response = await axios.get('https://simple-note-be.onrender.com/notes',config);
 
       console.log("Notes fetched successfully..");
       console.log(response.data);
@@ -51,7 +51,7 @@ function LoggedInPage({user,setUser,token,setToken,isRegistered,setIsRegistered}
     }
 
     try{
-      const response = await axios.post('http://localhost:3001/notes',newNoteObject,config);
+      const response = await axios.post('https://simple-note-be.onrender.com/notes',newNoteObject,config);
 
       console.log("note added successfully");
       console.log(response.data);
